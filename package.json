@@ -1,0 +1,34 @@
+{
+  "name": "ddev-wp",
+  "version": "1.0.0",
+  "description": "A simple CLI for setting up a local WordPress development server with DDEV",
+  "main": "index.mjs",
+  "bin": {
+    "ddev-wp": "./index.mjs"
+  },
+  "author": {
+    "name": "Jacob Cassidy",
+    "email": "hello@cassidydc.com",
+    "url": "https://cassidydc.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobcassidy/ddev-local-wp-server-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/jacobcassidy/ddev-local-wp-server-cli/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cassidyDC",
+    "cli",
+    "ddev",
+    "wordpress"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-welcome": "^3.0.1",
+    "enquirer": "^2.4.1",
+    "log-symbols": "^7.0.0"
+  }
+}
