@@ -28,16 +28,16 @@ import {
 
 // Alerts
 export const errorAlert = (msg) =>
-  log(`\n${symError} ${redBI(` ERROR `)} ${redB(msg)}\n`);
+  log(`\n${symError} ${redBI(` ERROR `)} ${redB(msg)}`);
 
 export const infoAlert = (msg) =>
-  log(`\n${symInfo} ${blueI(` INFO `)} ${blue(msg)}\n`);
+  log(`\n${symInfo} ${blueI(` INFO `)} ${blue(msg)}`);
 
 export const noteAlert = (msg) =>
-  log(`\n${symNote} ${yellowI(` NOTE `)} ${yellow(msg)}\n`);
+  log(`\n${symNote} ${yellowI(` NOTE `)} ${yellow(msg)}`);
 
 export const successAlert = (msg) =>
-  log(`\n${symSuccess} ${greenI(` SUCCESS `)} ${green(msg)}\n`);
+  log(`\n${symSuccess} ${greenI(` SUCCESS `)} ${green(msg)}`);
 
 export const warningAlert = (msg) =>
-  log(`\n${symWarning} ${orangeI(` WARNING `)} ${orange(msg)}\n`);
+  log(`\n${symWarning} ${orangeI(` WARNING `)} ${orange(msg)}`);
