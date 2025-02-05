@@ -3,7 +3,7 @@
 /**
  * DDEV Local WP Server CLI
  *
- * A simple CLI for setting up a local WordPress development server with DDEV.
+ * A simple CLI for configuring and setting up a local WordPress development server with DDEV.
  *
  * @author Jacob Cassidy <https://cassidydc.com>
  */
