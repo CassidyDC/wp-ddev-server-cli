@@ -2,7 +2,8 @@
  * @module utils/alerts
  */
 
-import { color, label, log, symbol } from "./index.js";
+import { log } from "./constants.js";
+import { color, label, symbol } from "./styles.js";
 
 /**
  * Display an alert message in the console.
